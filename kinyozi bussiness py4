@@ -1,0 +1,11 @@
+print('KINYOZI_BUSSINESS')
+saving_price=float(input('saving_price:'))
+number_of_persons_saved=int(input('number_persons_saved:'))
+amount=(saving_price*number_of_persons_saved)
+print(amount)
+if amount>300:
+     print('good_bussiness')
+elif  amount <290:
+      print ('bad_bussines')
+else:
+      print('quit_bussiness')
